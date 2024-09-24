@@ -1,0 +1,1 @@
+# Biblioteka_do_czujnika_NTC
