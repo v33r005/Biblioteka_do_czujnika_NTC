@@ -16,8 +16,8 @@
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  */
 
-#ifndef SRC_SUPLA_SENSOR_NTC10K_H_
-#define SRC_SUPLA_SENSOR_NTC10K_H_
+#ifndef SRC_SUPLA_SENSOR_NTC_10K_H_
+#define SRC_SUPLA_SENSOR_NTC_10K_H_
 
 #include <supla/sensor/thermometer.h>
 
@@ -29,9 +29,9 @@
 
 namespace Supla {
 namespace Sensor {
-class NTC10k : public Thermometer {
+class NTC_10k : public Thermometer {
  public:
-  NTC10k(int pin, float Thermistor_Resistance_25_Degree = 10000, float Rref = 10000, float B_Value = 3950) 
+  NTC_10k(int pin, float Thermistor_Resistance_25_Degree = 10000, float Rref = 10000, float B_Value = 3950) 
   : pin(pin), 
     Thermistor_Resistance_25_Degree(Thermistor_Resistance_25_Degree), 
     Rref(Rref), 
@@ -78,4 +78,4 @@ class NTC10k : public Thermometer {
 };  // namespace Sensor
 };  // namespace Supla
 
-#endif  // SRC_SUPLA_SENSOR_NTC10K_H_
+#endif  // SRC_SUPLA_SENSOR_NTC_10K_H_
